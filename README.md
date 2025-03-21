@@ -29,12 +29,12 @@ Este projeto visa automatizar a criação de um workspace simples, incluindo a c
    ```
 
 2. Navegue até o diretório do projeto:
-  ```
-  cd <seu-repositorio>
+   ```
+   cd <seu-repositorio>
 
-  ```
+   ```
 3. Execute o script Bash:
    ```
-   create_workspace.sh
+   ./create_workspace.sh
 
    ```  
