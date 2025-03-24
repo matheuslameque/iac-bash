@@ -1,6 +1,14 @@
 # Projeto IaC: Automação de Workspace com Script Bash
 
-Este projeto visa automatizar a criação de um workspace simples, incluindo a criação de diretórios, grupos e usuários, além de configurar suas permissões. O script Bash foi desenvolvido para facilitar a configuração inicial de um ambiente de trabalho.
+Este projeto foi proposto como um desafio pela DIO e visa automatizar a criação de um workspace simples, incluindo a criação de diretórios, grupos e usuários, além de configurar suas permissões. O script Bash foi desenvolvido para facilitar a configuração inicial de um ambiente de trabalho. 
+
+## Requisitos do projeto
+
+- **Todo provsionamento deve ser feito em um arquivo do tipo Bash Script;**
+- **O dono de todos os diretórios criados será o usuário root;**
+- **Todos os usuários terão permissão total dentro do diretório publico;**
+- **Os usuários de cada grupo terão permissão total dentro de seu respectivo diretório;**
+- **Os usuários não poderão ter permissão de leitura, escrita e execução em diretórios de departamentos que eles não pertencem.** 
 
 ## Estrutura do Projeto
 
@@ -16,9 +24,9 @@ Este projeto visa automatizar a criação de um workspace simples, incluindo a c
   - `GRP_SEC`
 
 - **Usuários**:
-  - `carlos`, `maria`, `joao`
-  - `debora`, `sebastiana`, `roberto`
-  - `josefina`, `amanda`, `rogerio`
+  - `carlos`, `maria`, `joao`, pertencem ao `GRP_ADM`
+  - `debora`, `sebastiana`, `roberto`, pertencem ao `GRP_VEN`
+  - `josefina`, `amanda`, `rogerio`, pertencem ao `GRP_SEC`
 
 ## Como Usar
 
