@@ -32,7 +32,7 @@ Este projeto foi proposto como um desafio pela DIO e visa automatizar a criaçã
 
 1. Clone o repositório:
    ```
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/matheuslameque/iac-bash.git
 
    ```
 
